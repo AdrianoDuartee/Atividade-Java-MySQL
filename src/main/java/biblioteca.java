@@ -11,12 +11,24 @@ public class biblioteca {
         return listaLivros;
     }
 
+    public void setListaLivros(ArrayList<livro> listaLivros) {
+        this.listaLivros = listaLivros;
+    }
+
     public ArrayList<cliente> getListaClientes() {
         return listaClientes;
     }
 
+    public void setListaClientes(ArrayList<cliente> listaClientes) {
+        this.listaClientes = listaClientes;
+    }
+
     public ArrayList<emprestimo> getListagemEmprestimos() {
         return listagemEmprestimos;
+    }
+
+    public void setListagemEmprestimos(ArrayList<emprestimo> listagemEmprestimos) {
+        this.listagemEmprestimos = listagemEmprestimos;
     }
 
     public void emprestimo(cliente Cliente, livro Livro){
